@@ -51,7 +51,7 @@
   right: 0;
   bottom: 0;
   z-index: 12;
-  background: #484848;
+  background: #000000;
 }
 
 .loaderShortcode {
@@ -62,18 +62,8 @@
   left: 0;
 }
 
-.loaderShapeRight {
-  background: url(../img/loader-shape2.png) no-repeat center center;
-  animation: spinLeft 5s linear infinite;
-}
-
-.loaderShapeLeft {
-  background: url(../img/loader-shape.png) no-repeat center center;
-  animation: spinRight 5s linear infinite;
-}
-
 .loaderLogo {
-  background: url(../img/invisio.png) no-repeat center center;
+  background: url(../img/logo.png) no-repeat center center;
   animation: loaderOpacity 800ms linear infinite alternate;
 }
 
