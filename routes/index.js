@@ -14,8 +14,8 @@ router.get("/index.html", function (req, res, next) {
   });
 });
 
-router.get("/about.html", function (req, res, next) {
-  res.sendFile("public/about.html", {
+router.get("/about-us.html", function (req, res, next) {
+  res.sendFile("public/about-us.html", {
     root: "./",
   });
 });
